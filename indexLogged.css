@@ -1,0 +1,665 @@
+body{
+    display:flex;
+}
+
+header{
+    display:flex;
+    position:sticky;
+    z-index:5;
+    top:0;
+    right:0;
+    left:0;
+}
+
+#scritta-welcome{
+    text-align:center;
+}
+
+
+#main-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+#margini-titolo{
+    margin-top:200px;
+    margin-bottom:200px;
+    flex-direction:column;
+    display:flex;
+
+}
+
+#riquadro-titolo{
+    display:flex;
+    margin:0 auto;
+    width:0 auto;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+}
+
+#titolo{
+    text-align:center;
+    font-size: 250%;
+    font-family: Segoe UI;
+}
+
+#riquadro-sottotitolo{
+    display:flex;
+    margin:0 auto;
+    width:0 auto;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+}
+
+#sottotitolo{
+    text-align:center;
+    font-family: Segoe UI;
+}
+
+.bottone-accedi{
+    display:flex;
+    margin:0 auto;
+    width:7.5%;
+    height:auto;
+    background-color: rgb(0,111, 201);
+    border-color:  rgb(0,111,201);
+    justify-content:center;
+    align-items:center;
+    color: rgb(242,242,242);
+}
+
+.link #link-accedi{
+    color: rgb(242,242,242);
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding: left 30px right 30px;
+
+}
+
+#margine-immagine-benvenuto{
+    margin-top:200px;
+    margin-bottom:20px;
+    width:100%;
+}
+
+#immagine-benvenuto{
+    height:auto;
+    width:100%;
+}
+
+.margine-logo-benvenuto{
+    margin-top:20px;
+    margin-bottom:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo-benvenuto-img {
+    height: 150px;
+    width: 150px;
+}
+
+.logo-benvenuto-gif {
+    height:157px;
+    width:157px;
+}
+
+.margine-logo-finale-img{
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.margine-logo-finale-gif{
+    margin-top:16.5px;
+    margin-bottom:16.5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+#frasi-centrate-logo {
+    position:static;
+}
+
+
+
+#margini-frasi-centrate{
+    margin-top:500px;
+    margin-bottom:100px;
+    flex-direction:column;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.riquadro-frasi-centrate-grandi{
+    display:flex;
+    margin:0 auto;
+    width:0 auto;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+}
+
+.frasi-centrate-grandi{
+    text-align:center;
+    font-size: 175%;
+    font-family: Segoe UI;
+}
+
+.riquadro-frasi-centrate-piccole{
+    display:flex;
+    margin:0 auto;
+    width:0 auto;
+    height:auto;
+    font-size:150%;
+    justify-content:center;
+    align-items:center;
+}
+
+.frasi-centrate-piccole{
+    text-align:center;
+    font-family: Segoe UI;
+}
+
+#margine-blocco-a-4{
+    margin-top:100px;
+    margin-bottom:100px;
+    align-items:stretch;
+
+}
+
+
+
+.biblocco-a-4{
+    display:flex;
+    margin:0 auto;
+    width:60%;
+    height:20%;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    align-items:stretch;
+}
+
+.biblocco-a-4-leggi-piu {
+    display:flex;
+    margin:0 auto;
+    width:0 auto;
+    height: 0 auto;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction:column;
+    align-items:stretch;
+}
+
+.blocco-a-4{
+    width:50%;
+    height:15%;
+    display:flex;
+    flex-direction:column;
+    margin:25px;
+    padding:25px;
+}
+
+.blocco-a-4-leggi-piu{
+    width:0 auto;
+    height: 0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin:25px;
+    padding:25px;
+}
+
+.margine-frasi-blocchi-grandiSX-leggi-piu{
+    display:flex;
+    width:0 auto;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#img-blocco-1{
+    display:flex;
+}
+
+.frasi-blocchi-grandiSX-leggi-piu{
+    text-align:left;
+    font-size:80%;
+    font-family: Segoe UI;
+}
+
+.parte-scritta-new-base{
+    
+}
+
+.parte-scritta-new-show{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    margin-left: 40px;
+}
+
+
+.leggi-piu{
+    color: lightskyblue;
+    display:flex; 
+    align-items:center;
+    height:0 auto;
+}
+
+.leggi-piu-hidden {
+    display:none
+}
+
+.leggi-meno{
+    color: lightskyblue;
+    display:flex; 
+    align-items:center;
+    height:0 auto;
+}
+
+.leggi-meno-hidden {
+    display:none
+}
+
+.testo-piu-hidden {
+    display:none
+}
+
+.testo-piu-show{
+    text-align:left;
+    font-size:100%;
+    font-family: Segoe UI;
+}
+
+
+.margine-frasi-blocchi-grandiSX{
+    display:flex;
+    width:0 auto;
+    height:auto;
+    justify-content:left;
+    align-items:left;
+}
+
+.frasi-blocchi-grandiSX{
+    text-align:left;
+    font-size:80%;
+    font-family: Segoe UI;
+}
+
+.margine-frasi-blocchi-piccoleSX{
+    display:flex;
+    width:0 auto;
+    height:auto;
+    justify-content:left;
+    align-items:left;
+}
+
+.frasi-blocchi-piccoleSX{
+    text-align:left;
+    font-family: Segoe UI;
+}
+
+.rounded{
+    border-radius:10px;
+    max-width:350px;
+    max-height:220px;
+
+}
+
+.blocco-standard{
+
+    display:flex;
+    align-items:center;
+
+
+}
+
+.blocco-grigio{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto;
+    flex-direction:column;
+    background-color: whitesmoke;
+    padding-bottom: 100px;
+}
+
+.blocco-scritta-lateraleSX{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    justify-content:space-around;
+    margin-top:100px;
+    width:100%;
+
+}
+
+.parte-scritta{
+    display:flex;
+    align-items:left;
+    flex-direction:column;
+    justify-content:center;
+    margin-right:40%;
+}
+
+.margine-frasi-laterali-blocchi-grandiSX{
+    display:flex;
+    width:0 auto;
+    height:auto;
+    justify-content:left;
+    align-items:center;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.frasi-laterali-blocchi-grandiSX{
+    text-align:left;
+    font-size:150%;
+    font-family: Segoe UI;
+}
+
+
+
+
+.margine-frasi-laterali-blocchi-piccoleSX{
+    display:flex;
+    width:0 auto;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.frasi-laterali-blocchi-piccoleSX{
+    text-align:left;
+    font-family: Segoe UI;
+    font-size:150%;
+}
+
+
+.rounded-big{
+    border-radius:10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width:500px;
+    max-height:400px;
+    margin-right:10%;
+    margin-left:10%;
+
+}
+
+.blocco-scritta-lateraleDX{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    margin-top:100px;
+    width:100%;
+
+}
+
+#blocco-bianco{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto;
+    flex-direction:column;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+#margini-bottoni{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.triblocco{
+    display:flex;
+    align-items:stretch;
+    justify-content:flex-start;
+    flex-direction:row;
+    flex-grow:1;
+
+}
+
+.bottone-accedi2{
+    background-color: rgb(0,111, 201);
+    border-color:  rgb(0,111,201);
+    margin-left:10px;
+    margin-bottom:100px;
+}
+
+.blocco-help{
+    background-color:white;
+    width:30%;
+    border-radius:10px;
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.margine-link{
+    display:flex;
+    width:0 auto;
+    height:auto;
+    justify-content:left;
+    align-items:center;
+    margin-left:20%;
+    margin-right:20%;
+    padding-bottom:50px
+    
+}
+
+.link-help{
+    text-decoration:none;
+}
+
+.link-help:hover{
+    text-decoration:underline;
+}
+
+footer{
+    position:relative;
+    bottom:0;
+    left:0;
+    right:0;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    background-color: rgb(242,242,242);
+    margin-top:50px;
+    z-index:5;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#elenco-link .link{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#paese .link{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#paese{
+    width:10%;
+}
+
+#privacy{
+    width:15%;
+}
+
+
+#elenco-link{
+    display:flex;
+    margin-right:0 auto;
+    position:absolute;
+    right:0;
+    justify-content:center;
+    align-items:center;
+    width:70%;
+}
+
+#privacy .link{
+    padding-right:5px;
+}
+
+.blocco-leggi-piu {
+
+    display:flex;
+    flex-direction:column;
+    width:95%;
+
+
+}
+
+
+
+
+@media screen and (max-width: 800px){
+
+
+    .biblocco-a-4{
+        display:flex;
+        margin:0 auto;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    
+    }
+
+    .blocco-scritta-lateraleDX{
+        width:80%;
+        height:15%;
+        display:flex;
+        flex-direction:column;
+        margin:25px;
+        padding:25px;
+    }
+
+    .blocco-scritta-lateraleSX{
+        width:80%;
+        height:15%;
+        display:flex;
+        flex-direction:column;
+        margin:25px;
+        padding:25px;
+    }
+
+    .triblocco{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        
+    
+    }
+
+    .blocco-help{
+        background-color:white;
+        width:80%;
+        border-radius:10px;
+        margin:50px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .blocco-a-4{
+        width:100%;
+        height:15%;
+        display:flex;
+        flex-direction:column;
+        margin:25px;
+        padding:25px;
+    }
+
+    footer{
+
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:flex-start;
+        background-color: rgb(242,242,242);
+        margin-top:50px;
+        z-index:5;
+    }
+
+    #paese{
+        width:10%;
+        margin-bottom:5px;
+    }
+    
+    #privacy{
+        width:15%;
+        margin-bottom:5px;
+    }
+
+    #elenco-link{
+        display:flex;
+        margin-right:0 auto;
+        justify-content:flex-end;
+        align-items:center;
+        width:80%;
+    }
+
+    body{
+        display:flex;
+        width:100%
+    }
+
+    #leggi-piu1{
+        color: lightskyblue;
+        display:flex; 
+        align-items:center;
+        height:0 auto;
+        margin-bottom:10px;
+    }
+
+    #leggi-piu2{
+        color: lightskyblue;
+        display:flex; 
+        align-items:center;
+        height:0 auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
